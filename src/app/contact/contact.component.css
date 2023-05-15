@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* startcoversation */
+
+
+.startcoversation h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vmin;
+    line-height: 58px;
+    color: #000000;
+
+}
+
+.startcoversation p {
+    font-family: 'Inter';
+    font-size: 5vmin;
+    
+    line-height: 1em;
+    color: #000000;
+    font-weight: 100;
+
+}
+
+/* FORMS */
+
+.formcont {
+    background-color: #FFFFFF;
+    box-shadow: 0 9px 35px 0 rgba(0, 0, 0, .19);
+}
+.namesEmail {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.namesEmail input[type=text] {
+
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration-color: #FFFFFF;
+    background: none;
+    border-bottom: 2px solid #001B34;
+}
+
+.namesEmail ::placeholder {
+    font-weight: 500;
+    color: #00B4D0;
+}
+
+.namesEmail textarea {
+    height: 48px;
+    border: none;
+    width: 99%;
+    text-decoration-color: #FFFFFF;
+    background: none;
+    border-bottom: 2px solid #001B34;
+}
+
+.nutton {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #001B34;
+}
+
+.butun {
+    background-color: transparent;
+    border: none;
+    font-size: 2vmax;
+    color: white;
+}
+.file {
+    width: 99%;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #001B34;
+}
+
+.file input[type=file] {
+    color: #00B4D0;
+    font-weight: 500;
+}
+
+.file ::placeholder {
+    color: #00B4D0;
+    font-weight: 500;
+}
+
+
+/* CONTACT AND MAP */
+
+.contactandmap h3 {
+    font-weight: 700;
+    font-size: 7vmin;
+    line-height: 48px;
+    color: #000000;
+}
+
+.contactandmap h5 {
+    font-weight: 200;
+    font-size: 3vmin;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+.addinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.addinfo h3 {
+    font-weight: 700;
+    font-size: 5vmin;
+    line-height: 38px;
+    color: #000000;
+}
+
+.loca2 p {
+    margin-top: 3px;
+    margin-left: 0.7vw;
+    color: #00B4D0;
+    font-size: 2.6vmin;
+}
+
+@media (min-width: 280px) and (max-width: 767px) {
+
+    .startcoversation p {
+        font-family: 'Inter';
+        font-size: 2.5vmax;
+    }
+
+    .addimg {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .loca2 p {
+        margin-top: 3px;
+        margin-left: 0.7vw;
+        color: #00B4D0;
+        font-size: 5vmin;
+    }
+
+    .contactandmap h5 {
+        font-size: 2.5vmax;
+    }
+
+}

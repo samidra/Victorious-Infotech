@@ -1,0 +1,100 @@
+
+<div class="container-fluid p-md-5 p-2">
+    <div class="row p-md-5 p-2">
+        <div class="col-12 p-md-5 p-2 startcoversation">
+            <h2>Start a conversation</h2>
+            <p class="mt-2">Get in touch with us to discuss new product 
+            ideas and business opportunities.</p>
+        </div>
+    </div>
+</div>
+
+<!-- FORMS -->
+
+<div class="container-fluid mt-5 p-5 formcont">
+    <form [formGroup]="ContactUS" #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+        <div class="row p-md-5 p-3">
+            <div class="col-md-6 p-2 mt-5 namesEmail">
+                <input type="text" formControlName="name" placeholder="Full Name" />
+                <div *ngIf="submitted && formControl.name.errors" class="text-danger">
+                    <div *ngIf="formControl.name.errors.required">Full Name is required.</div>
+                    <div *ngIf="formControl.name.errors.pattern">Valid Full Name is required.</div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 p-2 namesEmail">
+                <input type="text" formControlName="mail" placeholder=" Enter Your Email" />
+                <div *ngIf="submitted && formControl.mail.errors" class="text-danger">
+                    <div *ngIf="formControl.mail.errors.email">Email must be valid.</div>
+                    <div *ngIf="formControl.mail.errors.required">Email is required.</div>
+                </div>
+            </div>
+            <div class="col-md-6 p-2 mt-5 namesEmail">
+                <input type="text" formControlName="phone" placeholder=" Enter Your Contact Number" />
+                <div *ngIf="submitted && formControl.phone.errors" class="text-danger">
+                    <div *ngIf="formControl.phone.errors.required">Contact Number is required.</div>
+                    <div *ngIf="formControl.phone.errors.pattern">Valid Contact Number is required.</div>
+                </div>
+            </div>
+            <div class="col-md-6 p-2 mt-5 namesEmail">
+                <input type="text" placeholder="Company Name" />
+            </div>
+            <div class="col-12 mt-5 mx-2 namesEmail">
+                <textarea formControlName="remark" cols="30" rows="10"
+                    placeholder="Tell us what we can do for you"></textarea>
+                <div *ngIf="submitted && formControl.remark.errors" class="text-danger">
+                    <div *ngIf="formControl.remark.errors.required">Please Write.</div>
+                </div>
+            </div>
+            <div class="col-12 mt-5 mx-2 file">
+                    <input type='file'>
+            </div>
+            <div class="col-sm-4 mt-5 nutton">
+                <input type="submit" class="btn btn-primary" class="butun p-1" value="SUBMIT" />
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+                                                            <!-- CONTACT AND MAP -->
+
+<div class="container-fluid mt-5 p-md-5">
+    <div class="row p-md-5 p-2">
+        <div class="col-12 contactandmap">
+            <h3>Get in touch</h3>
+            <h5 class="m-3">Drop an email or give us a call.</h5>
+        </div>
+    </div>
+    <div class="row p-md-5 p-2 addimg">
+
+        <div class="col-md-5">
+            <div class="row p-md-3 p-1 mt-md-5">
+                <div class="col-12 m-2 addinfo loca2">
+                    <h5 style="color:black;" class="m-1 mt-2"><img src="assets/image/location.png"  height="20px" width="15.166666030883789px"> &nbsp;Location:</h5>
+                    <p>  Office No.3 First floor,C4<br>Block C,
+                        Noida Sector 63,<br>UP-201301,India
+                    </p>
+                </div>
+                <div class="col-12 m-2 addinfo loca2">
+                    <h5 style="color:black;" class="m-1 mt-2"><img src="assets/image/mailicon.png"  height="20px" width="15.166666030883789px"> &nbsp;E-mail:</h5>
+                    <p>
+                        rajesh@victoriousinfotech.com
+                    </p>
+                </div>
+                <div class="col-12 m-2 addinfo loca2">
+                    <h5 style="color:black;" class="m-1 mt-2"><img src="assets/image/phoneicon.png"  height="20px" width="15.166666030883789px"> &nbsp;Phone:</h5>
+                    <p>
+                        +91-981 115 7907<br>
+                        +91-0120-4417-177
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.551060692048!2d77.31280911482038!3d28.58324079306148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce57175cd9dbf%3A0xf6e8225e5fbb9ac2!2sTalent%20Achievers%20%7C%20Global%20IT%20Training%20%26%20Placement%20Institute%20%7C!5e0!3m2!1sen!2sin!4v1678433192476!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+
+ 

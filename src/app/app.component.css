@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu {
+    margin-left: 20vmax;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.18vmax;
+}
+
+.navbar ul li a:hover {
+    color: #12B5D0;
+}
+
+.logo {
+    width: 201px;
+}
+
+.ctn p {
+    margin-left: 17vmax;
+    background: black;
+    color: white;
+}
+
+.dropdowna {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdowna .dropbtna {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.dropdowna .dropbtna:hover {
+    color: #12B5D0;
+}
+
+.headera {
+    background-color: white;
+}
+
+.dropdown-contenta {
+    display: none;
+    position: absolute;
+    width: 95%;
+    left: 0;
+    margin-left: 2.5vmax;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+.dropdowna:hover .dropdown-contenta {
+    display: block;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.colarow {
+    background-color: white;
+}
+@media (min-width: 280px) and (max-width: 577px) {
+    .colarow {
+        height: 200px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+.dropdown-contenta {
+
+    margin-left: 1vmax;
+
+}
+}
+.columna a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    columns: #001B34;
+
+}
+
+.columna h3 {
+
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (min-width: 280px) and (max-width: 991px) {
+    .menu {
+        margin-left: 1vmax;
+    }
+
+    .navbar ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 161px;
+    }
+
+    .ctn p {
+        margin-top: 6px;
+        overflow: hidden;
+        width: 29%;
+        margin-left: 0vmax;
+    }
+
+}
+
+/* footer */
+.footer {
+    background-image: url("src/assets/image/background Map.jpg");
+    max-width: 100%;
+    color: whitesmoke;
+}
+
+.add {
+    /* font-size: 1.5vmax; */
+    padding-bottom: 10px;
+}
+
+.quick span{
+    color: white;
+    /* font-size: 1.5vmax; */
+    line-height: 1.6em;
+    letter-spacing: .1em;
+    font-weight: 600;
+}
+
+.quick ul li {
+    list-style: none;
+    margin-top: 1vmax;
+
+}
+
+.quick ul li a {
+    font-family: 'Inter';
+    /* font-size: 1.3vmax; */
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 0.6em;
+
+}
+
+@media (min-width: 280px) and (max-width:770px){
+    .folink{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    }
+
+
+
+
+

@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("src/assets/image/mobilehead.png");
+    max-width: 100%;
+    padding: 5vmax;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 9vmin;
+    line-height: 66px;
+}
+
+/* <!--WEB AND CMS--> */
+.webandcms p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #000000;
+}
+
+/* <!-- OUR SERVICES --> */
+
+.ourservices h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 60px;
+    color: #000000;
+}
+
+.colservice {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ourservices p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #000000;
+    text-align: justify;}
+
+
+.ourservicespoints1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00B4D0;
+    border-top: 6px solid #00101F;
+}
+
+.ourservicespoints1 h3 {
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.ourservicespoints1 p {
+    font-size: 20px;
+    margin-top: 0.7em;
+    color: #ffffff;
+    font-weight: 200;
+    line-height: 1em;
+    text-align: center;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+/* <!-- CMS WEBSITE DEVELOPMENT --> */
+
+
+.webdevelopmentcont {
+    background-image: url("src/assets/image/commonbg.png");
+    max-width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.webdevelopmentcont h3 {
+    font-size: 6vmin;
+    color: white;
+    font-weight: 600;
+}
+
+.webdevelopmentcont p {
+    font-size: 1.7vmax;
+    width: 92%;
+    color: white;
+    font-weight: 300;
+    line-height: 1.2em;
+    text-align: justify;
+}
+
+.webdevelopment2 {
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+
+
+.webdevelopment2 h3 {
+    font-size: 1.4vmax;
+    color: white;
+}
+
+/* <!-- PROCESS -- */
+
+.ourprocesshead h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 60px;
+    color: #000000;
+}
+
+.ourprocesshead p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #000000;
+}
+
+
+.ourprocess {
+    margin-top: 8vmax;
+}
+
+.ourprocessdesign {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    background-color: #fff;
+    border: 9px dotted black;
+    height: 199px;
+    border-radius: 50%;
+    -moz-border-radius: 70%;
+    -webkit-border-radius: 50%;
+    width: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle h4 {
+    position: absolute;
+    color: #ffffff;
+}
+
+.vl {
+    border-left: 9px dotted black;
+    height: 200px;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+}
+.ourprocesscontent {
+    background-color: #d2eff3;
+}
+.ourprocesscontent p{
+    text-align: justify;
+}
+.ourprocesscontent ul li{
+    list-style: none;
+    font-weight: 600;
+}
+
+
+@media (min-width: 280px) and (max-width:560px){
+    .ourprocessdesign{
+        display:none;
+    }
+    .ourprocesscontent{
+        width: 100%;
+    }
+}
+
+/* <!-- BENEFITS --> */
+
+
+.benefitscont {
+    background-color: #00B4D0;
+}
+
+.benefitscont h1 {
+    font-size: 7vmin;
+    color: white;
+    font-weight: 600;
+}
+
+.benefitscont p {
+    font-size: 19px;
+    color: white;
+    font-weight: 300;
+    line-height: 1.2em;
+    text-align: justify;
+}
+.benefitrow{
+    display: flex;
+    justify-content: space-around;
+}
+.benefitboxtopic {
+    background-color: white;
+}
+
+.benefitboxtopic h4{
+ color: #001B34;
+ font-weight: 500;
+ font-size: 19px;
+}
+
+.benefitboxtopic p{
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+   }
+
+.benefitboxtopics {
+    background-color: #001B34;
+}
+
+.benefitboxtopics h4{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+   }
+   
+   .benefitboxtopics p{
+       color: white;
+       font-size: 14px;
+       font-weight: 200;
+       margin-bottom: 20px;
+      }
+
+
+/* FEATURED PROJECTS */
+
+.featuredproject {
+    padding: 1em;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredproject h3 {
+    font-size: 7vmin;
+    font-weight: 600;
+}
+
+.featuredproject p {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.2em;
+}
+
+
+.VICTO .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+
+}
+
+
+.VICTO .slide img {
+    width: 100%;
+    height: 100%;
+}
+
+::ng-deep .slick-prev:before,
+::ng-deep .slick-next:before {
+    color: #001B34 !important;
+}
+

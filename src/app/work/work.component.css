@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: Inter;
+}
+
+.header {
+    background-image: url("src/assets/image/work bg.png");
+    max-width: 100%;
+    padding: 5vmax;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 7vmin;
+    line-height: 66px;
+}
+
+.header p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 45px;
+    text-align: justify;
+    word-spacing: -3px;
+    color: #FFFFFF;
+}
+
+/* submenu */
+
+.submenucont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sbmn ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sbmn ul li {
+    display: block;
+    list-style: none;
+    margin-left: 0.8rem;
+}
+
+.sbmn ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 3.3vmin;
+    font-weight: 500;
+}
+
+.sbmn ul li :hover {
+    text-decoration-line: underline;
+    text-decoration-color: #12B5D0;
+    text-decoration-thickness: 2px;
+}
+
+/*---------------------------------------------------------------------------------------------------- */
+/* Our Work  */
+
+
+.projectdetailrow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rect {
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.imageandcontent h3 {
+    padding-top: 30px;
+    font-size: 22px;
+    padding-left: 3rem;
+}
+
+.imageandcontent p {
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 3rem;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+    color: #000000;
+    opacity: 0.8;
+    text-align: justify;
+}
+
+.imageandcontent h4 {
+    padding-top: 10px;
+    padding-left: 3rem;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 3vmin;
+    color: #000000;
+    opacity: 0.6;
+}
+
+
+/* Tools & Technologies */
+
+.techcontainer .h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.8rem;
+    letter-spacing: 0.5px;
+    color: #032444;
+}
+
+.toolt {
+    font-size: 6.9vmin;
+}
+
+.techcontainer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.23em;
+    color: #001B34;
+    opacity: 0.7;
+    text-align: justify;
+}
+
+
+
+
+.mobile {
+    display: flex;
+    font-size: 3.2vmin;
+    align-items: center;
+    justify-items: right;
+}
+
+.mobiletech {
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    Height: 91px;
+}
+
+.web {
+    display: flex;
+    font-size: 3.2vmin;
+    align-items: center;
+    justify-items: right;
+}
+
+.webtech {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    Height: 91px;
+}
+
+.digitalmrkt {
+    display: flex;
+    font-size: 3.5vmin;
+    align-items: center;
+    justify-items: right;
+}
+
+.marketing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    Height: 91px;
+}
+
+
+.design {
+    display: flex;
+    font-size: 3.5vmin;
+    align-items: center;
+    justify-items: right;
+}
+
+.Designing {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1em;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    Height: 91px;
+}
+
+.Cloud {
+    display: flex;
+    font-size: 3.5vmin;
+    align-items: center;
+    justify-items: right;
+}
+
+.Clouds {
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    Height: 91px;
+}
+
+#aws {
+    margin-top: 10px;
+}
+
+.glecld {
+    margin-top: -10px;
+}
+
+.nde {
+    margin-top: -1.5em;
+}
+
+/* Boost */
+
+.boostcont {
+    background-image: url("src/assets/image/Add1.jpg");
+    width: 100%;
+    max-width: 100%;
+    padding: 5vmax;
+}
+
+.boostcont h2 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 3vmax;
+    color: #081B32;
+}
+
+.boostcont p {
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 2.5vmax;
+    text-align: justify;
+    color: #081B32;
+
+}
+
+.boostcont a {
+    text-decoration: none;
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+}

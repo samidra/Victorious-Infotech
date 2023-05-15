@@ -1,0 +1,286 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("src/assets/image/cloudhead.png");
+    max-width: 100%;
+    padding: 5vmax;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 9vmin;
+    line-height: 66px;
+}
+
+/* <!-- SOLUTION PROVIDER --> */
+
+
+.solutionprovider h3 {
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 60px;
+    color: #000000;
+}
+
+.solutionprovider p {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: #000000;
+}
+
+/* <!-- PARTNERSHP --> */
+
+
+.Partner h3 {
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 60px;
+    color: #000000;
+}
+
+.Partner p {
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vmax;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+.imgpartner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgpartner p {
+    width: 80%;
+    font-size: 1.3vmax;
+    margin-top: 30px;
+}
+
+
+/* <!-- WHAT WE OFFER --> */
+
+.whatweoffer {
+    background-color: #001B34;
+}
+
+.whatweoffer h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 60px;
+    color: white;
+}
+
+.whatweoffer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5em;
+    color: white;
+}
+
+
+.discusspoint1 h5 {
+    font-size: 1.8vmax;
+    text-align: center;
+}
+
+.discusspoint1 {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.discusspoint1 p {
+    font-weight: 100;
+    margin-top: 20px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+
+/* <!-- BENEFITS FROM US  --> */
+
+.benefits h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.2vmax;
+    line-height: 60px;
+    color: #000000;
+}
+
+.benefits p {
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #000000;
+}
+
+/* --------------------- */
+
+
+.pointandimage h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    font-size: 3.8vmin;
+    line-height: 1.2em;
+    margin-top: 1.6rem;
+
+}
+
+.pointandimage p {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+/* STEPS */
+
+.stepscount {
+    display: flex;
+    flex-direction: column;
+}
+
+.stepsrow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stepscount a {
+    font-weight: 600;
+    font-size: 1.5vmax;
+    border-bottom: 2px solid #000000;
+    text-decoration: none;
+}
+
+.stepscount h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4vmax;
+    line-height: 2em;
+    color: #000000;
+
+}
+
+.stepscount p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18x;
+    line-height: 1.3em;
+    letter-spacing: 0.005em;
+    color: #000000;
+
+}
+
+/* <!-- INNOVATE --> */
+
+.innovatewithus {
+    background-color: #00B4D0;
+}
+
+.innovatewithus h3 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3vmax;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+
+.innovatepoints {
+    margin-top: 5em;
+    height: 175px;
+    width: 92%;
+    display: flex;
+
+}
+
+.innovatepointcount {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1.5px solid #FFFFFF;
+
+}
+
+.innovatepointcount p {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.innovatepointcount img {
+    height: 7vmax;
+    width: 7vmax;
+}
+
+.innovatepointcountbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctnus {
+    background-color: #000333;
+    text-align: center;
+}
+
+.innovatepointcountbtn a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8vmax;
+
+}

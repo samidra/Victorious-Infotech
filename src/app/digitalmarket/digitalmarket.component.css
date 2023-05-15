@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url("src/assets/image/degitalhead.png");
+    max-width: 100%;
+    padding: 5vmax;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.header h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 7vmin;
+   
+}
+
+/* <!-- Digital Marketing & Transformation --> */
+
+.dmtransform h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 50px;
+    color: #000000;
+}
+
+.dmtransform p {
+    font-size: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #000000;
+    text-align: justify;
+}
+
+/* <!-- OUR STRATEGIES --> */
+
+
+.ourstrategies h3 {
+    margin-left: 3rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5vmax;
+    line-height: 60px;
+    color: #000000;
+
+}
+
+.finalpoints {
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+
+}
+
+.finalpoints img {
+    height: 7vmax;
+    width: 7vmax;
+}
+
+.finalpoints h4 {
+    margin-left: 1em;
+    font-size: 2vmax;
+}
+
+/* HOWWEDO */
+
+.howwedocont {
+    background-image: url("src/assets/image/howwedoBG.png");
+    max-width: 100%;
+    padding: 3vmax;
+}
+
+
+.howwedocont h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8vmin;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.howwedofinalpoints h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vmax;
+    line-height: 3em;
+    color: #FFFFFF;
+}
+
+
+.howwedofinalpoints p {
+    font-style: normal;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.2em;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+/* OUR SERVICES */
+
+.ourservices h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4vmax;
+    line-height: 60px;
+    color: #000000;
+
+}
+.pointofservices h5 {
+    font-size: 1.2vmax;
+    color: #001B34;
+}
+
+.pointofservices a :hover {
+    color: #12B5D0;
+    cursor: pointer;
+}
+
+/* Search Engine Optimisation */
+
+.headservices h3 {
+    font-size: 3.3vmax;
+}
+
+.servicesengine1 h4 {
+    font-size: 2.4vmax;
+}
+
+.servicesengine2 h5 {
+
+    font-size: 3.2vmin;
+}
+
+.servicesengine2 p {
+    font-size: 18px;
+}
+
+.servicesengine2 h4 {
+    text-align: center;
+    font-size: 2.4vmin;
+}
+
+.searchenginerow{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* COMPLETE SOLUTION TO SOCIAL MEDIA */
+
+.completesolutiontosocialmedia h2 {
+    font-size: 8vmin;
+}
+
+.completesolutiontosocialmedia p {
+    width: 80%;
+    font-size: 18px;
+}
+
+.completesolutiontosocialmedia h5 {
+    font-size: 3.5vmin;
+    margin-top: 2em;
+}
+
+
+.completesolutiontosocialmedia ol li {
+    font-weight: 300;
+    font-size: 18px;
+}

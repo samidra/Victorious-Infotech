@@ -1,0 +1,676 @@
+
+
+
+<!-- container -->
+
+
+<div class="container-fluid header">
+    <div class="row p-md-5 p-2">
+        <div class="col-12">
+            <h4>DIGITAL PRODUCT DESIGN AGENCY</h4>
+            <h1>VICTORIOUS DIGITAL MARKETERS <br>CAN SUPPORT YOU TO</h1>
+            <p>Offering cost-efficient solutions for creative design, effective web,
+             <br> practical mobile</p>
+            <button><a routerLink="/Contact" (click)="exit()" class="ctnus">CONTACT US</a></button>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Abouts -->
+
+<div class="container-fluid">
+        <h5 class="aboutush5">ABOUT US</h5>
+    <div class="row p-md-5 p-3">
+        <div class="col-12 aboutush2 mt-5">
+            <h2>Leading <font color="#00B4D0">Digital </font> <font color="#00B4D0">Transformation Company</font>
+            </h2>
+        </div>
+        <div class="col-12 mt-3">
+            <div class="row digitalcontent">
+                <div class="col-md-5 col-12">
+                    <div>
+                        <p>Victorious is a leading digital transformation company. We have a team of professional and
+                            dedicated
+                            industry experts, who aim to take your business to new heights. With the advanced
+                            technological
+                            advancements, professionals redefine your internal operational processes and deliver custom
+                            solutions
+                            (web, app, and software) to overcome business challenges as well as meet the latest
+                            development market
+                            trends.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div>
+                        <p>We follow agile methodology and prototype methods to reduce future technological gaps. Our
+                            foremost step
+                            is to understand your business requirements and with an effective method execute the plans
+                            that ensure
+                            to stay ahead in the market competition. From custom software development, Cloud computing
+                            to API
+                            integrations services, we are experts in all services that help you to turn your idea into
+                            advanced.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/image/Group 2595.png" alt="" height="100%" max-width="100%" class="usimgresponsive mt-5">
+    </div>
+
+</div>
+
+
+
+<!-- Service -->
+
+<div class="container-fluid services">
+    <h5 class="aboutush5">SERVICES</h5>
+    <div class="row mt-5 mb-md-3">
+        <div class="col-12 mt-5 p-md-5 p-3 ">
+            <h2>Our <font color="#00B4D0">Digital Services</font>
+            </h2><br>
+            <p>We offer our digital services across the world that drive business value and ensure to empower our
+                clients to meet their different needs. Our IT experts, strategize the roadmaps and deliver innovative, scalable,
+                and robust custom solutions that are built by top industry experts.</p>
+        </div>
+        <div class="col-12 p-5 VICTO">
+            <div class="row">
+                <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig"
+                (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)"
+                (beforeChange)="beforeChange($event)">
+                <div ngxSlickItem *ngFor="let slide of slides" class="col-md-3 mx-md-1 p-4 slide">
+                    <img src="{{slide.img}}">
+                    <h1>{{slide.title}}</h1>
+                    <p>{{slide.description}}</p>
+                </div>
+            </ngx-slick-carousel>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Our Work -->
+
+<div class="container-fluid projectcont pt-3">
+    <h5 class="aboutush5">PROJECTS</h5>
+    <div class="row p-md-5 p-3 mt-5">
+        <div class="col-12 ourwork">
+            <h2>Our <font color="#00B4D0">Work</font>
+            </h2><br>
+        </div>
+        <div class="col-md-9 col-12 ourwork">
+            <p>We offer our digital services across the world that drive business value and ensure to empower our
+                clients to
+                meet their different needs. Our IT experts, strategize the roadmaps and deliver innovative, scalable,
+                and robust
+                custom solutions that are built by top industry experts.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="row mt-5 projectdetailrow">
+                <div class="col-md-5 col-12">
+                    <div class="imageandcontent">
+                        <img src="assets/image/Rectangle.png" class="rect">
+                        <h3>Cinematic Marketplace</h3>
+                        <p> MoviePass came to us with a vision to improve their existing MoviePass mobile app and evolve
+                            the way their
+                            customers experienced their brands and p...
+                        </p>
+                        <h4>UX/UI Design &nbsp; &nbsp; &nbsp; &#xb7; &nbsp; &nbsp; &nbsp; Development</h4>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="imageandcontent" id="cnt2">
+                        <img src="assets/image/54041.png" class="rect">
+                        <h3>Cinematic Marketplace</h3>
+                        <p> MoviePass came to us with a vision to improve their existing MoviePass mobile app and evolve
+                            the way their
+                            customers experienced their brands and p...
+                        </p>
+                        <h4>UX/UI Design &nbsp; &nbsp; &nbsp; &#xb7; &nbsp; &nbsp; &nbsp; Development</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="viewimg mx-5"><a routerLink="/Work" (click)="exit()">
+            <font color="white">VIEW MORE</font>
+        </a></div>
+</div>
+
+<!-- work process -->
+
+<div class="container-fluid">
+    <div class="row workpro">
+        <div class="col-md-10 p-md-5 p-2">
+            <h2>Work Process</h2><br>
+            <p>Startxlabs is a digital technology company delivering end to end web, mobile applications and software
+                development services to consumer internet and large businesses across the globe</p>
+        </div>
+    </div>
+</div>
+<div class="proimage"></div>
+
+
+<!-- Tools & Technologies -->
+
+<div class="container-fluid techcontainer mt-5 pt-5">
+    <h5 class="aboutush5">TECHNOLOGIES</h5>
+    <div class="row p-md-5 p-3">
+        <div class="col-12">
+            <h2 class="toolt">Tools <font color="#00B4D0">& Technologies</font>
+            </h2>
+        </div>
+        <div class="col-md-9 col-12 mt-5">
+            <p>We opt for the best technological stack with the motive to deliver futuristic solutions that turn you
+                unique as
+                well as stay ahead in the edge of market competition. Our developers create a combination of the best..
+            </p>
+        </div>
+
+        <div class="col-12 mt-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-3 mobile">
+                    <h3>Mobile Development</h3>
+                </div>
+                <div class="col-lg-9 col-12 ">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6  col-12 mb-4">
+                            <div class="mobiletech"><img src="assets/image/android .png" class="dvimg">
+                                <h6>Android</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6  col-12 mb-4">
+                            <div class="mobiletech"><img src="assets/image/apple.png" class="dvimg">
+                                <h6>iOS</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12 mb-4">
+                            <div class="mobiletech"><img src="assets/image/flutter.png" class="dvimg">
+                                <h6>Flutter</h6>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6  col-12 mb-4">
+                            <div class="mobiletech"><img src="assets/image/react.png" class="dvimg">
+                                <h6>React</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div class="col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3 web">
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="col-lg-9 col-12 ">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="webtech"><img src="assets/image/django.png" class="dvimg"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="webtech"><img src="assets/image/php.png" class="dvimg">
+                                    <h6>PHP</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="webtech"><img src="assets/image/node.png" class="dvimg" height="68rem">
+                                    <h6 class="nde">Node JS</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="webtech"><img src="assets/image/dot.png" class="dvimg">
+                                    <h6>DOT NET</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div class="col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3 web">
+                        <h3>Digital Marketing</h3>
+                    </div>
+                    <div class="col-lg-9 col-12 ">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="marketing"><img src="assets/image/googleAd.png" class="dvimg">
+                                    <h6>Google Adds</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="marketing"><img src="assets/image/facebookAds.png" class="dvimg"
+                                        height="58rem">
+                                    <h6>Facebooks Adds</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="marketing"><img src="assets/image/GoogleAnalytics.png" class="dvimg">
+                                    <h6>Google Analytics</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div class="col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3 web">
+                        <h3>Designing</h3>
+                    </div>
+                    <div class="col-lg-9 col-12 ">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 ol-12 mb-4">
+                                <div class="Designing"><img src="assets/image/photoshop 1.png" class="dvimg">
+                                    <h6>Photoshop</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 ol-12 mb-4">
+                                <div class="Designing"><img src="assets/image/illustrator 1.png" class="dvimg">
+                                    <h6>Illustrator</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 ol-12 mb-4">
+                                <div class="Designing"><img src="assets/image/figma.png" class="dvimg">
+                                    <h6>Figma</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------- -->
+
+            <div class="col-12 mt-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-3 web">
+                        <h3>Cloud</h3>
+                    </div>
+                    <div class="col-lg-9 col-12 ">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="Clouds"><img src="assets/image/aws.png" class="dvimg">
+                                    <h6 id="aws">Amazon Web Services</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="Clouds"><img src="assets/image/google.png" class="dvimg" height="55rem">
+                                    <h6 class="glecld">Google Cloud</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12 mb-4">
+                                <div class="Clouds"><img src="assets/image/azure.png" class="dvimg">
+                                    <h6>Microsoft Azure</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Why Choose Us -->
+<div class="container-fluid whyuscont mt-5 ">
+
+    <h5>WHY CHOOSE US</h5>
+    <div class="row p-md-5 p-3">
+        <div class="col-12">
+            <h2>Why Choose Us</h2>
+        </div>
+        <div class="col-md-10 mt-4">
+            <p>We have marked our presence across the globe and offered our digital services to the wide spectrum.
+                Our team is a combination of highly skilled and proficient developers to put their high efforts to shape
+                your
+                idea into success.</p>
+        </div>
+        <div class="col-12">
+            <div class="row wcuo mt-5">
+                <div class="col-md-5 col-11 mb-md-0 mb-5">
+                    <div class="whychooseuspoint">
+
+                        <ul>
+                            <li type="dot">
+                                <h4>Experienced Team</h4>
+                                Enrich with experienced technical professional in software development and maintenance.
+                            </li><br>
+
+                            <li type="dot">
+                                <h4>Latest Trends and Technologies</h4>
+                                Facilatating degital mordenization and greater productivety with largest technology.
+                            </li><br>
+
+                            <li type="dot">
+                                <h4>Affordable Charges</h4>
+                                We are very compitative in pricing and provide our services with reseanable charges.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5 col-11">
+                    <div class="whychooseuspoint">
+                        <ul>
+                            <li type="dot">
+                                <h4>Experienced Team</h4>
+                                Enrich with experienced technical professional in<br>software development and
+                                maintenance.
+                            </li><br>
+
+                            <li type="dot">
+                                <h4>Latest Trends and Technologies</h4>
+                                Facilatating degital mordenization and greater productivety with largest technology.
+                            </li><br>
+
+                            <li type="dot">
+                                <h4>Affordable Charges</h4>
+                                We are very compitative in pricing and provide our services with reseanable charges.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Web development services for divergent industries -->
+<div class="container-fluid webdevelopmentservicecont mt-5">
+    <h5 class="aboutush5">INDUSTRIES</h5>
+    <div class="row p-md-5 p-3">
+        <div class="col-md-9 col-12">
+            <h2 class="wds mt-5">Web Development Services <br> <font color="#00B4D0">for divergent industries</font>
+            </h2>
+        </div>
+        <div class="col-md-7">
+            <p class="wdscontent mt-5">By providing solutions to various industries, we have developed a strong
+                knowledge in
+                varients sector.</p>
+        </div>
+        <div class="col-12 mt-5 webdevelopmentserviceconts">
+            <div class="row">
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Education.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Education </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Health.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Healthcare </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Manuf.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Manufacturing </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Fintech.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Fintech </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Insurance.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Insurance </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Financial.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Financial </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Transport.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Transport </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Hospitality.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Hospitality </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Energy.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Energy and Utilities </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Media.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Media and Entertainment </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Logistics.png" width="78px" height="61px"> 
+                <span>
+                   <strong> Logistics and Distribution</strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Reatail.png" width="78px" height="61px"> <br>
+
+                <span>
+                   <strong> Retail and E-Commerce</strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Tele commu.png" width="78px" height="61px"> 
+              <br>  <span>
+                   <strong>Tele Communication </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Consulting.png" width="78px" height="61px"> 
+                <span>
+                   <strong>Consulting Services </strong>
+                </span>
+                </div>
+                <div class="col-lg-2 col-sm-3 col-4 p-md-5 p-1 mb-md-0 mb-3"><img class="mb-4" src="assets/image/Public Sector .png" width="78px" height="61px"><br> 
+                <span>
+                   <strong>Public Sector </strong>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="webdevelopmentservice">
+
+    <div class="imgctnr">
+
+    </div>
+
+</div>
+
+
+<!-- Testimonals -->
+<div class="container-fluid mt-5 pt-5 testinomalcont">
+    <h5 class="aboutush5">TESTIMONIALS</h5>
+    <div class="row mx-md-5 p-md-1 p-3">
+        <div class="col-12 p-md-4 p-2">
+            <h2>We've been trully previlleged to have worked with great people across multiple industries</h2>
+        </div>
+        <div class="col-12" id="testim">
+            <div class="row">
+                <div class="col-md-6 col-12 mb-4" *ngFor="let testimonal of testimonals">
+                    <div class="testimo m-3 p-3 ">
+                        <img src="{{testimonal.imgs}}">
+                        <h1>{{testimonal.titles}}</h1>
+                        <h2>{{testimonal.sbtls}}</h2>
+                        <p>{{testimonal.descriptions}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- FAQ -->
+
+<div class="container-fluid mt-5 faqcont">
+    <h5 class="aboutush5">FAQ</h5>
+    <div class="row mt-5 p-md-5 p-3">
+        <div class="col-10 mt-5">
+            <h2>Frequently <font color="#00B4D0">asked questions</font>
+            </h2>
+        </div>
+        <div class="col-12 mx-md-5 p-md-4 p-2">
+            <cdk-accordion class="example-accordion">
+                <cdk-accordion-item *ngFor="let item of items; let index = index;" #accordionItem="cdkAccordionItem"
+                    class="example-accordion-item" role="button" tabindex="0" [attr.id]="'accordion-header-' + index"
+                    [attr.aria-expanded]="accordionItem.expanded" [attr.aria-controls]="'accordion-body-' + index">
+                    <div class="row example-accordion-item-header" (click)="onclickAccordionItem(accordionItem)">
+                        <div class="col-12" id="sam"> {{ item.title }}</div>
+                        <span class="example-accordion-item-description">
+                            <div id="click"><img src="assets/image/{{getToggleIcon(accordionItem)}}" width="32vmin"
+                                    height="32vmin">
+                                <div class="example-accordion-item-body" role="region"
+                                    [style.display]="accordionItem.expanded ? '' : 'none'"
+                                    [attr.id]="'accordion-body-' + index"
+                                    [attr.aria-labelledby]="'accordion-header-' + index">
+                                    <div>{{item.description}}</div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </cdk-accordion-item>
+            </cdk-accordion>
+        </div>
+        <!-- <cdk-accordion class="example-accordion">
+                    <cdk-accordion-item *ngFor="let item of items; let index = index;" #accordionItem="cdkAccordionItem"
+                        class="example-accordion-item" role="button" tabindex="0"
+                        [attr.id]="'accordion-header-' + index" [attr.aria-expanded]="accordionItem.expanded"
+                        [attr.aria-controls]="'accordion-body-' + index">
+                        <div class="row example-accordion-item-header" (click)="onclickAccordionItem(accordionItem)">
+                            <div class="col-12 sam"> {{ item.title }}
+                            </div>
+                            <span class="example-accordion-item-description">
+                                <div id="click"><img src="assets/image/{{getToggleIcon(accordionItem)}}" alt=""
+                                        srcset="">
+                                    <div class="example-accordion-item-body" role="region"
+                                        [style.display]="accordionItem.expanded ? '' : 'none'"
+                                        [attr.id]="'accordion-body-' + index"
+                                        [attr.aria-labelledby]="'accordion-header-' + index">
+                                        {{item.description}}
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </cdk-accordion-item>
+                </cdk-accordion> -->
+    </div>
+</div>
+
+
+
+<!-- Blogs -->
+<div class="container-fluid blogs mt-5">
+    <div class="row p-md-5 p-2 mt-5">
+        <div class="col-12 mt-5">
+            <h2>Blogs/ <font color="#00B4D0">News feeds</font>
+            </h2>
+        </div>
+        <div class="col-md-11 mt-2">
+            <p>We are a leading web, mobile application and software development service provider with a</p>
+        </div>
+    <div class="col-12">
+        <div class="row p-md-5 p-3 mt-5 rowsub">
+            <div class="col-md-4 col-11 p-2">
+                <div class="subblog"><img src="assets/image/Rectangle 94 (1).png" width="100%" class="blogimg">
+                    <p>We opt for the best technological stack with the motive to
+                        deliver futuristic solutions </p>
+                    <h6>Anna brak - 12/07/2022</h6>
+                </div>
+            </div>
+            <div class="col-md-4 col-11 p-2">
+                <div class="subblog"><img src="assets/image/Rectangle 94 (2).png" width="100%" class="blogimg">
+                    <p>We opt for the best technological stack with the motive to
+                        deliver futuristic solutions </p>
+                    <h6>Anna brak - 12/07/2022</h6>
+                </div>
+            </div>
+            <div class="col-md-4 col-11 p-2">
+                <div class="subblog"><img src="assets/image/Rectangle 94 (7).png" width="100%" class="blogimg">
+                    <p>We opt for the best technological stack with the motive to
+                        deliver futuristic solutions </p>
+                    <h6>Anna brak - 12/07/2022</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Conversation -->
+<div class="container-fluid conversationcont">
+    <h5>CONTACT US</h5>
+    <div class="row p-md-5 p-3">
+        <div class="col-md-6 col-12 pb-3 start">
+            <h1>Start a conversation</h1>
+            <p>Get in touch with us to discuss new project ideas
+                and business opportunities.</p>
+            <br>
+            <ul>
+                <li>Scalable and high performing websites and apps</li>
+                <li>Meet client satisfaction</li>
+                <li>Free consulting and quotes</li>
+                <li>Timely deliveries</li>
+                <li>Flawless Ul/UX for end users</li>
+                <li>Predefined precesses</li>
+                <li>Expertise teams</li>
+            </ul>
+        </div>
+        <div class="col-md-6 col-12 p-md-3 p-1 start">
+            <form method="post" [formGroup]="ContactUS">
+                <div class="nameEmail">
+                    <div class="names">
+                        <input type="text" formControlName="name" placeholder="Full Name" />
+                        <span style="color: red ; font-size:10px; " *ngIf="name && name.invalid && name.touched">Valid
+                            Name
+                            Is Required</span>
+                    </div>
+                    <div class="names">
+                        <input type="text" formControlName="mail" placeholder="E mail" />
+                        <span style="color: red ; font-size:10px; " *ngIf="mail && mail.invalid && mail.touched">Valid
+                            Email
+                            Is Required</span>
+                    </div>
+                </div>
+
+
+                <div class="nameEmail">
+                    <div class="names">
+                        <input type="text" formControlName="phone" placeholder="Contact Number" />
+                        <span style="color: red ; font-size:10px; "
+                            *ngIf="phone && phone.invalid && phone.touched">Valid
+                            Contact Number Is Required</span>
+                    </div>
+                    <div class="names">
+                        <input type="text" placeholder="Company Name" />
+                    </div>
+                </div>
+                <div class="Teus">
+                    <textarea formControlName="remark" cols="30" rows="10"
+                        placeholder="Tell us about your project"></textarea>
+                    <span style="color: red ; font-size:10px; "
+                        *ngIf="remark && remark.invalid && remark.touched">Please
+                        Enter Complete Details </span>
+                </div>
+                <div class="nameEmail">
+                    <input type="submit" class="btn btn-primary" class="nutton" value="SUBMIT" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
