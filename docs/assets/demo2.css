@@ -1,0 +1,24 @@
+﻿/* ---------------- For sticky header: class="float-panel"  ------------------*/
+.float-panel {
+    z-index: 300;
+    transform: translateZ(0);
+    transition: all 0.5s;
+    background-color: white;
+    /* Effect for switching from .fixed to static */
+}
+
+/* when class="float-panel fixed" */
+.fixed {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    animation: slide-down 0.7s;
+}
+
+@keyframes slide-down {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
